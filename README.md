@@ -30,7 +30,7 @@ fit <- fit_rep_factorial(
 
 effects_table(fit)
 anova_table(fit)
-cube_plot3(fit)  # only works when there are exactly 3 factors
+cube_plot3(fit)  # only works when there are exactly 3 factors.
 ```
 
 ## How to install repfactoR in R
