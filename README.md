@@ -11,8 +11,6 @@ Core functions:
 - `fit_rep_factorial()`: Fits a full factorial linear model (main effects + all interactions) and standardizes factor coding to -1/+1 when possible.
 - `effects_table()`: Returns **Yates-scaled effect estimates** (effect = 2 × coefficient under -1/+1 coding) with confidence intervals.
 - `anova_table()`: Returns an ANOVA-style coefficient summary (SE, t, p-values) plus effect-scaled estimates.
-- `main_effects_plot()`: Main-effects plot (mean response at -1 vs +1 for each factor).
-- `interaction_plots()`: Pairwise interaction plots for all factor pairs.
 - `cube_plot3()`: Cube plot of fitted means for exactly **3** factors.
 
 ## Sample dataset
