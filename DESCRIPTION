@@ -1,0 +1,29 @@
+Package: repfactoR
+Type: Package
+Title: Analysis Tools for Replicated 2^k Factorial Designs
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Xinyun", family = "Tan", role = c("aut", "cre"),
+           email = "xinyun.tan@mail.utoronto.ca"),
+    person(given = "Sandra", family = "Boahemaah", role = "aut",
+           email = "sandra.boahemaah@mail.utoronto.ca")
+ )
+Description: Provides lightweight, teaching-oriented utilities to analyze replicated
+    2^k factorial designs where each factor has two levels. The package fits full
+    factorial linear models (all interactions) using {-1, +1} coding, reports
+    Yates-scaled effect estimates (effect = 2 * coefficient) with confidence intervals,
+    and provides an ANOVA-style coefficient table. A simple cube plot visualizes
+    model-predicted means for 3-factor designs without requiring specialized design
+    objects. Includes a small coffee preference toy dataset.
+Depends: R (>= 4.1.0)
+Imports:
+    stats,
+    graphics
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
