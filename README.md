@@ -30,8 +30,6 @@ fit <- fit_rep_factorial(
 
 effects_table(fit)
 anova_table(fit)
-main_effects_plot(fit)
-interaction_plots(fit)
 cube_plot3(fit)  # only works when there are exactly 3 factors
 ```
 
